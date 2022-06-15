@@ -1,9 +1,9 @@
 import React from 'react'
-import { Space, Table, Tag } from 'antd';
+import { Table } from 'antd';
 import { useGetExchangesQuery } from '../Services/CryptoAPI';
 
 
-const { Column, ColumnGroup } = Table;
+const { Column } = Table;
 
 
 const Exchanges = () => {
